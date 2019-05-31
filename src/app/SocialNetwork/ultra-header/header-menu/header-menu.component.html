@@ -1,0 +1,153 @@
+<nav>
+    <ul>
+        <li *ngFor="let r of menuList">
+            <a href="{{r.url}}" title="">
+                <span><img src="{{r.icon}}"/></span>
+                {{r.urltitle}}
+            </a>
+        </li>  
+    </ul>
+</nav>
+<!-- <nav>
+   
+    <ul>
+        <li>
+            <a href="{{headermenu[0].url}}" title="">
+                <span><img src="{{headermenu[0].icon}}"/></span>
+                {{headermenu[0].urltitle}}
+            </a>
+        </li>
+        <li>
+            <a href="{{headermenu[1].url}}" title="">
+                <span><img src="{{headermenu[1].icon}}"/></span>
+                {{headermenu[1].urltitle}}
+            </a>
+        </li>
+        <li>
+            <a href="{{headermenu[2].url}}" title="">
+                <span><img src="{{headermenu[2].icon}}"/></span>
+                {{headermenu[2].urltitle}}
+            </a>
+        </li>
+        <li>
+            <a href="{{headermenu[3].url}}" title="">
+                <span><img src="{{headermenu[3].icon}}"/></span>
+                {{headermenu[3].urltitle}}
+            </a>
+            <ul>
+                <li> <a href="{{headermenu[3].submenu[0].suburl}}" title="">
+                    {{headermenu[3].submenu[0].suburltitle}}
+                </a></li>
+                <li> <a href="{{headermenu[3].submenu[1].suburl}}" title="">
+                    {{headermenu[3].submenu[1].suburltitle}}
+                </a></li>
+            </ul>
+        </li>
+        <li>
+            <a href="{{headermenu[4].url}}" title="" >
+                <span><img src="{{headermenu[4].icon}}"/></span>
+                {{headermenu[4].urltitle}}
+            </a>
+        </li>
+        <li>
+                    <a href="{{headermenu[5].url}}" title=""  class="not-box-open">
+                    <span><img src="{{headermenu[5].icon}}"/></span>
+                    {{headermenu[5].urltitle}}
+            </a>
+            <div class="notification-box msg">
+                <div class="nt-title">
+                    <h4>Setting</h4>
+                    <a href="#" title="">Clear all</a>
+                </div>
+                <div class="nott-list">
+                    <div class="notfication-details">
+                          <div class="noty-user-img">
+                              <img src="assets/images/resources/ny-img1.png" alt="">
+                          </div>
+                          <div class="notification-info">
+                              <h3><a href="messages.html" title="">Jassica William</a> </h3>
+                              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do.</p>
+                              <span>2 min ago</span>
+                          </div>
+                      </div>
+                      <div class="notfication-details">
+                          <div class="noty-user-img">
+                              <img src="assets/images/ny-img2.png" alt="">
+                          </div>
+                          <div class="notification-info">
+                              <h3><a href="messages.html" title="">Jassica William</a></h3>
+                              <p>Lorem ipsum dolor sit amet.</p>
+                              <span>2 min ago</span>
+                          </div>
+                      </div>
+                      <div class="notfication-details">
+                          <div class="noty-user-img">
+                              <img src="assets/images/ny-img3.png" alt="">
+                          </div>
+                          <div class="notification-info">
+                              <h3><a href="messages.html" title="">Jassica William</a></h3>
+                              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempo incididunt ut labore et dolore magna aliqua.</p>
+                              <span>2 min ago</span>
+                          </div>
+                      </div>
+                      <div class="view-all-nots">
+                          <a href="messages.html" title="">View All Messsages</a>
+                      </div>
+                </div>
+            </div>
+        </li>
+        <li>
+            <a href="#" title="" class="not-box-open">
+                <span><img src="assets/images/icon7.png" alt=""></span>
+                Notification
+            </a>
+            <div class="notification-box">
+                <div class="nt-title">
+                    <h4>Setting</h4>
+                    <a href="#" title="">Clear all</a>
+                </div>
+                <div class="nott-list">
+                    <div class="notfication-details">
+                          <div class="noty-user-img">
+                              <img src="assets/images/ny-img1.png" alt="">
+                          </div>
+                          <div class="notification-info">
+                              <h3><a href="#" title="">Jassica William</a> Comment on your project.</h3>
+                              <span>2 min ago</span>
+                          </div>
+                      </div>
+                      <div class="notfication-details">
+                          <div class="noty-user-img">
+                              <img src="assets/images/ny-img2.png" alt="">
+                          </div>
+                          <div class="notification-info">
+                              <h3><a href="#" title="">Jassica William</a> Comment on your project.</h3>
+                              <span>2 min ago</span>
+                          </div>
+                      </div>
+                      <div class="notfication-details">
+                          <div class="noty-user-img">
+                              <img src="assets/images/ny-img3.png" alt="">
+                          </div>
+                          <div class="notification-info">
+                              <h3><a href="#" title="">Jassica William</a> Comment on your project.</h3>
+                              <span>2 min ago</span>
+                          </div>
+                      </div>
+                      <div class="notfication-details">
+                          <div class="noty-user-img">
+                              <img src="assets/images/ny-img2.png" alt="">
+                          </div>
+                          <div class="notification-info">
+                              <h3><a href="#" title="">Jassica William</a> Comment on your project.</h3>
+                              <span>2 min ago</span>
+                          </div>
+                      </div>
+                      <div class="view-all-nots">
+                          <a href="#" title="">View All Notification</a>
+                      </div>
+                </div>
+            </div>
+        </li>
+    </ul>
+</nav> -->

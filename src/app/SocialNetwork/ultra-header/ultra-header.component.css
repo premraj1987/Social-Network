@@ -1,0 +1,18 @@
+header {
+	float: left;
+	width: 100%;
+	background-color: #e44d3a;
+}
+.header-data {
+	float: left;
+	width: 100%;
+}
+.logo {
+	float: left;
+	width: 40px;
+	margin-right: 14px;
+	margin-top: 10px;
+}
+.logo.pd-btm {
+	padding-bottom: 10px;
+}
