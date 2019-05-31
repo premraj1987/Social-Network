@@ -38,7 +38,8 @@ export class PostSectionComponent implements OnInit {
     },
     postLikes:"Likes",
     postComment:"Comments",
-    postViews:"Views"
+    postViews:"Views",
+    test:"test"
 }
 ]
  
